@@ -6,6 +6,6 @@
  
 效果：
 
-![](http://ww4.sinaimg.cn/mw690/6ccfb470gw1f85ynpi0izg20ms06ugnj.gif)
+![](http://ww4.sinaimg.cn/mw1024/6ccfb470gw1f85ynpi0izg20ms06ugnj.gif)
 
 * 作业L2 在80*80点阵上用字符拼出你想画的东西，并让它旋转起来，希望脑洞大开！（比如字符、火柴人、火箭等等）
