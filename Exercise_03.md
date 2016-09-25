@@ -14,3 +14,4 @@
 输入不同的旋转角度，可控制单位时间内旋转速度。
 
  [code](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/code_0302.py)
+ 程序有bug，ddl前搞不出来了
