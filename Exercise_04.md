@@ -15,6 +15,7 @@
   ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7BdNa%7D%7Bdt%7D%3D%5Cfrac%7BNb%7D%7B%5Ctau%7D-%5Cfrac%7BNa%7D%7B%5Ctau%7D)
   
   ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7BdNb%7D%7Bdt%7D%3D%5Cfrac%7BNa%7D%7B%5Ctau%7D-%5Cfrac%7BNb%7D%7B%5Ctau%7D)
+  
   利用如下代码可计算若干时间内A和B数量的变化：
   ```python
 import pylab as pl
@@ -30,10 +31,25 @@ for i in range(500):
     Nc = Na
     Na = Na + (Nb-Na)/tc*delta
     Nb = Nb + (Nc-Nb)/tc*delta
-#    print (Na)
-#    print (Nb)
     plotNa=pl.plot(t,Na,'r*')
     plotNb=pl.plot(t,Nb,'b*')
+pl.annotate('Na=100,Nb=0,T=1s',xy=(3,10),xytext=(3,20))
+pl.annotate('number of Na',xy=(1,80),xytext=(0.5,80))
+pl.annotate('number of Nb',xy=(1,20),xytext=(0.5,20))
   ```
+  当Na=100,Nb=0,衰变时间t=1s时，图象如下：
+  
+  ![](http://ww3.sinaimg.cn/large/6ccfb470jw1f8lbxxifimj20au07tdg6.jpg)
+  
+  Na与Nb初始数量交换后，图象如下：
+  
+  ![](http://ww2.sinaimg.cn/large/6ccfb470jw1f8lbzew8rqj20au07tdg6.jpg)
+  
+  继续改变初始数据：
+  
+  ![](http://ww4.sinaimg.cn/large/6ccfb470jw1f8lbzxiy1vj20au07t0t4.jpg)
+
 
 * 结论
+  
+  从上面的结果中可以看出，不管初始数据如何，在一定时间后，A与B的数量趋于一致，为总数量的一半。
