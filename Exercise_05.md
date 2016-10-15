@@ -17,8 +17,8 @@
   ![](http://latex.codecogs.com/gif.latex?x_%7Bi&plus;1%7D%3Dx_%7Bi%7D&plus;v_%7Bx%2Ci%7D%5CDelta%7Bt%7D)　　　　　　　　
   ![](http://latex.codecogs.com/gif.latex?y_%7Bi&plus;1%7D%3Dy_%7Bi%7D&plus;v_%7By%2Ci%7D%5CDelta%7Bt%7D)
   
-  ![](http://latex.codecogs.com/gif.latex?v_%7Bx%2Ci&plus;1%7D%3Dv_%7Bx%2Ci%7D&plus;%28%5Cfrac%7BF_%7Bdrag%2Cx%7D%7D%7Bm%7D%29%20%5CDelta%20t)　　　　
-  ![](http://latex.codecogs.com/gif.latex?v_%7By%2Ci&plus;1%7D%3Dv_%7By%2Ci%7D%28-g&plus;%5Cfrac%7BF_%7Bdrag%2Cy%7D%7D%7Bm%7D%29%5CDelta%7Bt%7D)
+  ![](http://latex.codecogs.com/gif.latex?v_%7Bx%2Ci&plus;1%7D%3Dv_%7Bx%2Ci%7D&plus;F_%7Bdrag%2Cx%7D%5CDelta%20t)　　　　
+  ![](http://latex.codecogs.com/gif.latex?v_%7By%2Ci&plus;1%7D%3Dv_%7By%2Ci%7D&plus;%28-g&plus;F_%7Bdrag%2Cy%7D%29%5CDelta%7Bt%7D)
   
   其中，
   
@@ -32,7 +32,8 @@
   空气密度随高度的变化公式：
     
   ![](http://latex.codecogs.com/gif.latex?%5Crho%3D%5Crho_%7B0%7D%281-%5Cfrac%7Bay%7D%7BT_%7B0%7D%7D%29%5E%7B%5Calpha%7D)　　　　
-  ![](http://latex.codecogs.com/gif.latex?%5Calpha%20%5Capprox%206.5%5Ctimes%2010%5E%7B-3%7D%20m%5E%7B-1%7D)（绝热近似）
+  ![](http://latex.codecogs.com/gif.latex?a%20%5Capprox%206.5%5Ctimes%2010%5E%7B-3%7D%20m%5E%7B-1%7D)　　
+  ![](http://latex.codecogs.com/gif.latex?%5Calpha%20%5Capprox%202.5)（绝热近似）
   
 * 正文
 
