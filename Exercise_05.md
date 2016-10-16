@@ -37,6 +37,24 @@
   
 * 正文
 
-  2.9同时考虑空气阻力和密度的影响，计算不同角度下的炮弹运动轨迹，并找到能使炮弹飞得最远的初始角度。
-
+  【题目】：2.9同时考虑空气阻力和密度的影响，计算不同角度下的炮弹运动轨迹，并找到能使炮弹飞得最远的初始角度。
+  
+  【解决思路】：
+  
+  （1）核心公式均出自前文。其中要注意触地点的计算：
+  
+  ![](http://latex.codecogs.com/gif.latex?x%3D%5Cfrac%)　　　　
+  ![](http://latex.codecogs.com/gif.latex?r%3D-%5Cfrac%7By_%7Bn%7D%7D%7By_%7Bn&plus;1%7D%7D)
+  
+  （2）利用循环计算不同角度下的炮弹运动轨迹；
+  
+  （3）使用如下语句，得出能使炮弹飞得最远的初始角度：
+  '''python
+   if max(x)>=mx:
+        mx = max(x)
+        ma = angle
+  '''
+  !<完整程序>(https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_05_code.py)
+    
 * 结论
+* 致谢
