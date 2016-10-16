@@ -43,18 +43,42 @@
   
   （1）核心公式均出自前文。其中要注意触地点的计算：
   
-  ![](http://latex.codecogs.com/gif.latex?x%3D%5Cfrac%)　　　　
+  ![](http://latex.codecogs.com/gif.latex?x%3D%5Cfrac%7Bx_%7Bn%7D&plus;rx_%7Bn&plus;1%7D%7D%7Br&plus;1%7D)　　　　
   ![](http://latex.codecogs.com/gif.latex?r%3D-%5Cfrac%7By_%7Bn%7D%7D%7By_%7Bn&plus;1%7D%7D)
   
   （2）利用循环计算不同角度下的炮弹运动轨迹；
   
   （3）使用如下语句，得出能使炮弹飞得最远的初始角度：
-  '''python
+  ```python
    if max(x)>=mx:
         mx = max(x)
         ma = angle
-  '''
-  !<完整程序>(https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_05_code.py)
+  ```
+  
+  [完整程序](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_05_code.py)
     
 * 结论
+  
+  设置初始速度为1000m/s，温度为300K
+  
+  (1)当初始角度为45°时，轨迹如下：
+  
+  ![](http://ww3.sinaimg.cn/large/6ccfb470jw1f8u6gmztblj20b807tdgm.jpg)
+  
+  (2)利用循环，每改变5°绘图一次，叠合图像如下：
+  
+  ![](http://ww4.sinaimg.cn/large/6ccfb470jw1f8u6ig1fplj20b807twgg.jpg)
+  
+  (3)继续加密步长，每改变0.5°绘图一次：
+  
+  ![](http://ww4.sinaimg.cn/large/6ccfb470gw1f8u6jrug4qj20b807tn0b.jpg)
+  
+  很鬼畜。
+  
+  (4)更变态地加密步长，不绘图，可得出最远距离及其对应的角度：
+  maxangle=46.6°
+  maxx=37998.396m
+  
 * 致谢
+
+  感谢臻臻同学提供意见，感谢徐同学debug！
