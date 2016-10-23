@@ -17,7 +17,9 @@
   （1）引入迎面风阻，假设风向水平，则阻力变为下面的公式：
   
   ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%2Cx%7D%3D-B_%7B2%7D%5Csqrt%7Bv%5E2-v_%7Bwind%7D%5E2%7D%28v_%7Bx%7D-v_%7Bwind%7D%29)　　　　
-  ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%2Cy%7D%3D-B_%7B2%7D%5Csqrt%7Bv%5E2-v_%7Bwind%7D%5E2%7Dv_%7By%7D)　　　　注意风速正号代表顺风，负号代表逆风。
+  ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%2Cy%7D%3D-B_%7B2%7D%5Csqrt%7Bv%5E2-v_%7Bwind%7D%5E2%7Dv_%7By%7D)　　　　
+  
+  注意风速正号代表顺风，负号代表逆风。
   
   （2）总的阻力还要乘空气密度比。但是要注意按照书上的公式计算时，当高度>46153.84615m时会出现负数，此时应该把比值置为0，可视为真空，没有空气阻力影响。
   
@@ -31,10 +33,10 @@
   
   好麻烦不知道怎么处理……
    
-  简化题目像上一题那样射到y=0的平地，固定角度进行扫描，首先取一个很大的初始速度，利用二分法进行逼近。（本来想逐步拟合的可是范围太宽不知道怎么弄）当误差小于5m时停止计算。
+  简化题目像上一题那样射到y=0的平地，固定角度进行扫描，首先取一个很大的初始速度，利用二分法进行逼近。当误差小于50m时停止计算。
   
-  
-  用while语句计算量会过大，所以只能限制运算次数。
+
+  用while语句计算量会过大，所以只能限制运算次数。
   
   [代码](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_06_code.py)
 
@@ -45,5 +47,7 @@
   我还没搞定。
 
 * 致谢
+  
+  各位大神，百度，知乎，渣电脑。
 
   
