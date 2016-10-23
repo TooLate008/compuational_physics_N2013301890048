@@ -56,11 +56,11 @@
   
     （1）目标坐标为（1000，100），风速-10m/s,输出：
     
-    The minimum initial velocity:105.99231719970703m/s，angle:47°
+    The minimum initial velocity:106.22806549072266m/s，angle:47°
     
     （2）目标坐标为（1000，-100），风速-10m/s,输出：
     
-    The minimum initial velocity:95.76740264892578m/s，angle:41°
+    The minimum initial velocity:95.98407745361328m/s，angle:41°
 
 * 致谢
   
