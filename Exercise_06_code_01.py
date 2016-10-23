@@ -26,8 +26,8 @@ for i in range(21):
                 c = 0
             else:
                 c = math.pow((1-(a*y[-1]/T)),2.5)
-            Fx = -Bm*math.sqrt(v*v-vw*vw)*(vx[-1]-vw)*c
-            Fy = -Bm*math.sqrt(v*v-vw*vw)*vy[-1]*c
+            Fx = -Bm*math.sqrt((v-vw)*(v-vw))*(vx[-1]-vw)*c
+            Fy = -Bm*math.sqrt((v-vw)*(v-vw))*vy[-1]*c
             vx.append(vx[-1]+Fx*dt)
             vy.append(vy[-1]+(-g+Fy)*dt)  
             x.append(x[-1]+vx[-2]*dt)
