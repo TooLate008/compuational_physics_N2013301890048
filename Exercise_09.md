@@ -17,8 +17,41 @@
 
 * 正文
 
+  1、方形边界：
+  
+  [code](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/code_0901.py)
+  
+  边界点可利用前面炮弹轨迹的插值法算出，再改变速度方向。结果图示：
+  
+  ![](http://ww3.sinaimg.cn/large/4da31865gw1f9yuobruuzj20b407jgnr.jpg)
+  
+  ![](http://ww2.sinaimg.cn/large/4da31865gw1f9yuorfkqlj20b407jadu.jpg)
+  
+  ![](http://ww3.sinaimg.cn/large/4da31865gw1f9yup1zxobj20b407jjuy.jpg)
+  
+  2、圆形边界：
+  
+  
+  (1)一般圆桌碰撞：无混沌现象
+  
+  [code](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/code_0902.py)
+  
+  ![](http://ww3.sinaimg.cn/large/4da31865gw1f9yutmb6gaj209k09dwh6.jpg)
+  
+ 
+  (2)从x轴切开距离2ar:
+  
+  [code](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/code_0903.py)
+  
+  ![](http://ww4.sinaimg.cn/large/4da31865gw1f9yvqcns3vj209k09dgne.jpg)
+  
+  a=0.01时，图像不规则。
+  
+  
 
 * 结论
 
 
 * 鸣谢
+
+  圆形边界碰撞部分的code在参考[谭善同学](https://github.com/TanMingjun/compuational_physics_N2014301020106/blob/master/shujubao/Ex_9/%E7%90%83%E5%BD%A2%E6%A1%8C%E9%9D%A2.py)的code之后编写，十分感谢！
