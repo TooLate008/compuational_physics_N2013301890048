@@ -46,11 +46,7 @@
   ![](http://ww4.sinaimg.cn/large/4da31865gw1f9yvqcns3vj209k09dgne.jpg)
   
   a=0.01时，图像不规则。
-  
-  
-
-* 结论
-
+ 
 
 * 鸣谢
 
