@@ -9,3 +9,4 @@
 * [Exercise_07_Oscillatory Motion and Chaos](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_07.md)
 * [Exercise_08_ROUTES TO CHAOS:PERIOD DOUBLING](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_08.md)
 * [Exercise_09_THE BILLIARD PROBLEM](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_09.md)
+* [Exercise_10_The Solar System](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_10.md)
