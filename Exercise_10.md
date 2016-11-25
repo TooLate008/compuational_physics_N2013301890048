@@ -54,9 +54,13 @@
 
 * 正文
 
-  平方反比定律不一定精确成立，此时设
+  平方反比定律可能有例外，此时设
   
   ![](http://latex.codecogs.com/gif.latex?F_%7BG%7D%3D%5Cfrac%7BGM_%7Bs%7DM_%7BE%7D%7D%7Br%5E%5Cbeta%7D)
   
+  
+  
 * 结论
+
+
 * 致谢
