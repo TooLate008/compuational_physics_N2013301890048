@@ -42,25 +42,39 @@
   ![](http://latex.codecogs.com/gif.latex?v_%7Bmin%7D%3D%5Csqrt%7BGM_%7BS%7D%7D%5Csqrt%7B%5Cfrac%7B%281-e%29%7D%7Ba%281&plus;e%29%7D%281&plus;%5Cfrac%7BM_%7BP%7D%7D%7BM_%7BS%7D%7D%29%7D)
   
   
-  求运动周期可利用开普勒第二定律：当
-  
-
-  
+  求运动周期可利用开普勒第二定理。  
       
       
   【水星进动】
       
   ![](http://imgsrc.baidu.com/forum/w%3D580/sign=8c71377d41166d223877159c76220945/9f4702003af33a8730dab0acc45c10385243b554.jpg)
-
+  
+  满足：
+  
+  ![](http://latex.codecogs.com/gif.latex?F_%7BG%7D%5Capprox%20%5Cfrac%7BGM_%7BS%7DM_%7BM%7D%7D%7Br%5E2%7D%281&plus;%5Cfrac%7B%5Calpha%7D%7Br%5E2%7D%29)
+  
 * 正文
 
-  平方反比定律可能有例外，此时设
+  1、太阳系行星轨道
+  
+  [code](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/code_1001.py)
+  
+  根据书上表4.1，可绘出太阳星各行星运动轨迹：
+  
+  ![](http://ww3.sinaimg.cn/large/4da31865gw1fa6rw4gychj20ka0k876d.jpg)
+  
+  可以看出，虽然轨迹是椭圆，但是由于偏心率较小），看起来还是很像圆轨道（水星和冥王星偏心率稍大但在图纸尺度上不明显）。
+
+  2、平方反比定律
+  
+  若行星受力公式中的平方项有极小的偏离，设:
   
   ![](http://latex.codecogs.com/gif.latex?F_%7BG%7D%3D%5Cfrac%7BGM_%7Bs%7DM_%7BE%7D%7D%7Br%5E%5Cbeta%7D)
   
+  此时对开普勒定律略作修改，有；
   
+  [code](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/code_1002.py)
   
-* 结论
-
+  这程序明显有问题。
 
 * 致谢
