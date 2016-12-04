@@ -19,14 +19,17 @@
   
   这样我们就可以对原来的行星运动程序略做修改得到模拟轨迹。
   
-  土星对m1的引力：
   
-  
- 
-  
-  
-  
+  计算可得如下关系：
+
+  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5Comega%7D%7Bdt%7D%3D-%5Cfrac%7B3GM_%7BSat%7D%7D%7Br_%7Bc%7D%5E5%7D%28x_%7Bc%7Dsin%5Ctheta-y_%7Bc%7Dcos%5Ctheta%29%28x_%7Bc%7Dcos%5Ctheta&plus;y_%7Bc%7Dsin%5Ctheta%29)
+
+
+  利用Euler-Cromer法可计算。    
   
 * 正文
+
+  
+
 * 结论
 * 致谢
