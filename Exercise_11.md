@@ -29,7 +29,57 @@
   
 * 正文
 
-  
+```python
+import math
+import matplotlib.pyplot as plt
+import numpy as np
 
-* 结论
-* 致谢
+GM = 4*(np.pi**2)
+x = [1]
+y = [0]
+vx = [0]
+vy =[2*np.pi]
+theta = [0]
+w = [0]
+dt = 0.0001
+t = [0]
+n = 0
+for i in range (100000):
+    r = math.sqrt(x[-1]*x[-1]+y[-1]*y[-1])
+    vx.append(vx[-1]-4*np.pi*np.pi*x[-1]/(r**3)*dt)
+    x.append(x[-1]+vx[-1]*dt)
+    vy.append(vy[-1]-4*np.pi*np.pi*y[-1]/(r**3)*dt)
+    y.append(y[-1]+vy[-1]*dt)
+    w.append(w[-1]-3*GM/(r**5)*(x[-1]*math.sin(theta[-1])-y[-1]*math.cos(theta[-1]))*(x[-1]*math.cos(theta[-1])+y[-1]*math.sin(theta[-1]))*dt)
+    theta.append(theta[-1]+w[-1]*dt)
+    t.append(t[-1]+dt)
+    if theta[-1]>np.pi:
+        theta[-1]=theta[-1]-2*np.pi
+    if theta[-1]<-np.pi:
+        theta[-1]=theta[-1]+2*np.pi
+plt.figure(figsize = (5,5))
+plt.plot(t,w,'-g')
+plt.xlabel('time(yr)')
+plt.ylabel('w(radians/yr)')
+plt.title('Hyperion w versus time')
+```
+  
+  （1）当轨道为圆轨道时，令轨道半径为1HU,且![](http://latex.codecogs.com/gif.latex?GM_%7BSat%7D%3D4%5Cpi%5E2),时间步长为0.0001hyperion year.可画出如下结果：
+  
+  ![](http://ww3.sinaimg.cn/large/4da31865jw1faf5vmbv52j209909d3z7.jpg)
+  ![](http://ww4.sinaimg.cn/large/4da31865jw1faf5w4gu41j209909d0to.jpg)
+  
+  (2)当轨道为椭圆轨道时，令轨道半径为1HU,初始速度为5HU/Hyperion year,且![](http://latex.codecogs.com/gif.latex?GM_%7BSat%7D%3D4%5Cpi%5E2),时间步长为0.0001hyperion year.可画出如下结果：
+  
+  ![](http://ww2.sinaimg.cn/large/4da31865jw1faf5xgikb8j209909dt9l.jpg)
+  ![](http://ww4.sinaimg.cn/large/4da31865jw1faf5xw9z0nj209f09d3z3.jpg)
+  
+  此时有混沌现象产生。
+  
+  (3)探究初始角度微小变化对结果的影响：
+  
+  分别计算初始角度为0和0.01并求差值，有如下结果：
+  
+  ![](http://ww4.sinaimg.cn/large/4da31865gw1faf61evqyrj20dw0e00u9.jpg)
+  ![](http://ww1.sinaimg.cn/large/4da31865gw1faf6246rvij20dw0e00ud.jpg)
+ 
