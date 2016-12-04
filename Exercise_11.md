@@ -64,12 +64,16 @@ plt.ylabel('w(radians/yr)')
 plt.title('Hyperion w versus time')
 ```
   
-  （1）当轨道为圆轨道时，令轨道半径为1HU,且![](http://latex.codecogs.com/gif.latex?GM_%7BSat%7D%3D4%5Cpi%5E2),时间步长为0.0001hyperion year.可画出如下结果：
+  （1）当轨道为圆轨道时，令轨道半径为1HU,且![](http://latex.codecogs.com/gif.latex?GM_%7BSat%7D%3D4%5Cpi%5E2),时间步长为0.0001hyperion year.
+  
+  可画出如下结果：
   
   ![](http://ww3.sinaimg.cn/large/4da31865jw1faf5vmbv52j209909d3z7.jpg)
   ![](http://ww4.sinaimg.cn/large/4da31865jw1faf5w4gu41j209909d0to.jpg)
   
-  (2)当轨道为椭圆轨道时，令轨道半径为1HU,初始速度为5HU/Hyperion year,且![](http://latex.codecogs.com/gif.latex?GM_%7BSat%7D%3D4%5Cpi%5E2),时间步长为0.0001hyperion year.可画出如下结果：
+  (2)当轨道为椭圆轨道时，令轨道半径为1HU,初始速度为5HU/Hyperion year,且![](http://latex.codecogs.com/gif.latex?GM_%7BSat%7D%3D4%5Cpi%5E2),时间步长为0.0001hyperion year.
+  
+  可画出如下结果：
   
   ![](http://ww2.sinaimg.cn/large/4da31865jw1faf5xgikb8j209909dt9l.jpg)
   ![](http://ww4.sinaimg.cn/large/4da31865jw1faf5xw9z0nj209f09d3z3.jpg)
