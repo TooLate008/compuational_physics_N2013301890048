@@ -13,3 +13,4 @@
 * [Exercise_11_Chaotic Tumbling of Hyperion](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_11.md)
 * [Exercise_12_Potential and Fields](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_12.md)
 * [Exercise_13_Waves](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/Exercise_13.md)
+* [期末作业](https://github.com/TooLate008/compuational_physics_N2013301890048/blob/master/final.md)
